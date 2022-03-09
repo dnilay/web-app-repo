@@ -22,5 +22,6 @@ public class MyServlet extends HttpServlet {
        PrintWriter out=response.getWriter();
        response.setContentType("text/html");
        out.println("hello world servlet in jenkins");
+       out.println("how are you");
     }
 }
